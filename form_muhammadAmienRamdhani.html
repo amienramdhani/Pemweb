@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+    
+<body>        
+    <h1>Form Pendaftaran Mahasiswa Meikarta </h1>       
+        <form>
+            <table align="center"  cellspacing="1" cellpadding="20">
+                <h3>Personal Information</h3>
+                <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input type="text" name="name" style="width: 300px;" placeholder="Your Name"></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth</td>
+                    <td>:</td>
+                    <td><input type="date" name="date" style="width: 300px;"></td>
+                </tr>              
+            </table>
+
+            <table align="center"  cellspacing="1" cellpadding="20">
+                <h3>Contact Information</h3>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td><textarea name="address" style="width: 300px;"></textarea></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>:</td>
+                    <td><input type="text" name="city" style="width: 300px;" placeholder="Indonesia"></td>
+                </tr> 
+                  <tr>
+                    <td>Province/state</td>
+                    <td>:</td>
+                    <td><input type="text" name="prov" style="width: 300px;" placeholder="Province"></td>
+                </tr> 
+                <tr>
+                    <td>Phone</td>
+                    <td>:</td>
+                    <td><input type="number" min="0" name="phone" style="width: 300px;" placeholder="08xxxxxxx"></td>
+                </tr>  
+                  <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="number" min="0" name="city" style="width: 300px;" placeholder="maxxx@xxxxxx.com"></td>
+                </tr>
+                <tr>
+                    <td>Graduate</td>
+                    <td>:</td>
+                    <td>
+                        <select style="width: 300px;">
+                            <option value="SMK">SMK</option>
+                            <option value="SMA">SMA</option>
+                            <option value="MA">MA</option>
+                            <option value="Pondok">Pondok</option>
+                        </select>
+                    </td>
+                </tr>           
+                <tr>
+                    <td>Gender</td>                      
+                    <td><input type="radio" name="gender" value="male">Male</td>
+                    <td><input type="radio" name="gender" value="female">Female</td>
+                </tr>
+            </table>
+            <table align="center" cellspacing="12" cellpadding="10">                
+                <tr>
+                    <td>Hobby</td>
+                    <td></td>                    
+                    <td><input type="checkbox"name="hobby">Reading</td>
+                    <td><input type="checkbox"name="hobby">Writing</td>                   
+                    <td><input type="checkbox"name="hobby">Riding</td>
+                    <td><input type="checkbox"name="hobby">Playing</td>
+                </tr>                 
+            </table>
+            <table align="center" cellspacing="1" cellpadding="20">
+                <tr>
+                <br><br>
+                <button type="submit" name="submit" style="width: 200px; margin-right: 50px;">Submit</button>
+                <button type="reset" name="reset" style="width: 200px;">Reset</button>
+                </tr>
+            </table>
+        </form>    
+    </div>
+</body>
+</html>
